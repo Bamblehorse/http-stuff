@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="mainApp">
+  <head>
+    <script src="js/vendor/angular.min.js"></script>
+     <link href="css/bootstrap.min.css" rel="stylesheet" />
+     <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body ng-controller="mainController">
+    <h1>TV Series</h1>
+    
+    <p>{{notice}}</p>
+    <div class="main" ng-repeat="show in shows">
+      <p>{{show.name}}</p>
+    </div>
+
+    
+
+
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+
+    <!-- Directives -->
+
+  </body>
+</html>
