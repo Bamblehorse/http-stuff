@@ -5,7 +5,7 @@ app.controller('mainController', function($scope, $http) {
 		method: 'GET',
 		url: 'http://www.cineworld.com/api/quickbook/cinemas',
 		data: {
-			key: 'BcbMt::2'
+			key: '#'
 		};
 	};
 	$http(options)
